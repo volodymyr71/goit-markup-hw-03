@@ -47,8 +47,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-color);
   text-decoration: none;
-
-
 }
 
 .logo-span-black {
@@ -224,6 +222,30 @@ body {
 .p-title-team {
   font-size: 16px;
   line-height: 1.188;
+  text-align: center;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-item {
+  width: calc((100% - 30px * 3) / 4);
+  margin-right: 30px;
+
+}
+
+.team-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.social-list {
+  display: flex;
+}
+
+.social-item:not(:last-child) {
+margin-right: 10px;
 }
 
 .footer-bg {
