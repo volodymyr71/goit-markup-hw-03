@@ -137,12 +137,18 @@ body {
   color: var(--accent-color);
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .hero {
   display: flex;
   text-align: center;
+  background: var(--background-footer);
 }
 
-.page-title {
+.page-title {  
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
@@ -150,7 +156,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
-  background: var(--accent-color); /* тільки для відладки. видалити */
+  /* background: var(--background-footer); тільки для відладки. видалити */
 }
 
 .button-main {
@@ -182,6 +188,8 @@ body {
 }
 
 .h2-title {
+  margin-top: 0;
+  margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.167;
