@@ -300,6 +300,10 @@ body {
   justify-content: space-between;
 }
 
+.footer-item {
+  width: calc((100% - 30px * 2) / 3);
+}
+
 .h2-portfolio {
   font-weight: bold;
   font-size: 18px;
