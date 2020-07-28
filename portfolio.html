@@ -12,54 +12,55 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="index.html" class="logo"
-          >Web <span class="logo-span-black">Studio</span></a
-        >
-        <ul class="unmark menu-list">
-          <li class="menu-item">
-            <a href="./index.html" class="menu-link">Студия</a>
-          </li>
-          <li class="menu-item">
-            <a href="./portfolio.html" class="menu-link">Портфолио</a>
-          </li>
-          <li class="menu-item"><a href="" class="menu-link">Контакты</a></li>
-        </ul>
-      </nav>
-      <ul class="unmark">
-        <li>
-          <a href="mailto:info@devstudio.com" class="contacts-link"
-            >info@devstudio.com</a
+    <header class="page-header">
+      <div class="container flexbox">
+        <nav class="navigation">
+          <a href="index.html" class="logo"
+            >Web <span class="logo-span-black">Studio</span></a
           >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="contacts-link">
-            +38 096 111 11 11
-          </a>
-        </li>
-      </ul>
+          <ul class="unmark menu-list">
+            <li class="menu-item">
+              <a href="./index.html" class="menu-link">Студия</a>
+            </li>
+            <li class="menu-item">
+              <a href="./portfolio.html" class="menu-link">Портфолио</a>
+            </li>
+            <li class="menu-item"><a href="" class="menu-link">Контакты</a></li>
+          </ul>
+        </nav>
+        <a
+          href="mailto:info@devstudio.com"
+          class="contacts-link mail-link-header"
+          >info@devstudio.com</a
+        >
+
+        <a href="tel:+380961111111" class="contacts-link">
+          +38 096 111 11 11
+        </a>
+      </div>
     </header>
+    <!-- PORTFOLIO -->
     <main>
-      <section>
+      <section class="section">
         <h1 hidden>Проэкты</h1>
-        <ul class="unmark">
-          <li><button type="button" class="button-portfolio">Все</button></li>
-          <li>
+        <div class="container">
+        <ul class="unmark portfolio-filter-list">
+          <li class="portfolio-filter-item"><button type="button" class="button-portfolio">Все</button></li>
+          <li class="portfolio-filter-item">
             <button type="button" class="button-portfolio">Веб-сайты</button>
           </li>
-          <li>
+          <li class="portfolio-filter-item">
             <button type="button" class="button-portfolio">Приложения</button>
           </li>
-          <li>
+          <li class="portfolio-filter-item">
             <button type="button" class="button-portfolio">Дизайн</button>
           </li>
-          <li>
+          <li class="portfolio-filter-item">
             <button type="button" class="button-portfolio">Маркетинг</button>
           </li>
         </ul>
-        <ul class="unmark">
-          <li>
+        <ul class="unmark portfolio-list-work">
+          <li class="portfolio-item-work">
             <a href="" class="portfolio-link"
               ><img
                 src="./images/potrfolio-img-01.jpg"
@@ -67,6 +68,7 @@
                 height="294"
                 alt="Вэб-сайт Технокряк"
               />
+              <div class="portfolio-descript">
               <h2 class="h2-portfolio">Технокряк</h2>
               <p class="p-portfolio-short">Веб-сайт</p>
               <p class="p-portfolio-long">
@@ -74,9 +76,10 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
+            </div>
             </a>
           </li>
-          <li>
+          <li class="portfolio-item-work">
             <a href="" class="portfolio-link"
               ><img
                 src="./images/potrfolio-img-02.jpg"
@@ -84,7 +87,7 @@
                 height="294"
                 alt="New Orlean vs Golden Star"
               />
-
+              <div class="portfolio-descript">
               <h2 class="h2-portfolio">Постер New Orlean vs Golden Star</h2>
               <p class="p-portfolio-short">Дизайн</p>
               <p class="p-portfolio-long">
@@ -92,9 +95,10 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
+            </div>
             </a>
           </li>
-          <li>
+          <li class="portfolio-item-work">
             <a href="" class="portfolio-link"
               ><img
                 src="./images/potrfolio-img-03.jpg"
@@ -102,6 +106,7 @@
                 height="294"
                 alt="Ресторан Seafood"
               />
+              <div class="portfolio-descript">
               <h2 class="h2-portfolio">Ресторан Seafood</h2>
               <p class="p-portfolio-short">Приложение</p>
               <p class="p-portfolio-long">
@@ -109,9 +114,10 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
+            </div>
             </a>
           </li>
-          <li>
+          <li class="portfolio-item-work">
             <a href="" class="portfolio-link"
               ><img
                 src="./images/potrfolio-img-04.jpg"
@@ -119,6 +125,7 @@
                 height="294"
                 alt="Проект Prime"
               />
+              <div class="portfolio-descript">
               <h2 class="h2-portfolio">Проект Prime</h2>
               <p class="p-portfolio-short">Маркетинг</p>
               <p class="p-portfolio-long">
@@ -126,9 +133,10 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
+            </div>
             </a>
           </li>
-          <li>
+          <li class="portfolio-item-work">
             <a href="" class="portfolio-link"
               ><img
                 src="./images/potrfolio-img-05.jpg"
@@ -136,6 +144,7 @@
                 height="294"
                 alt="Проект Boxes"
               />
+              <div class="portfolio-descript">
               <h2 class="h2-portfolio">Проект Boxes</h2>
               <p class="p-portfolio-short">Приложение</p>
               <p class="p-portfolio-long">
@@ -143,9 +152,10 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
+            </div>
             </a>
           </li>
-          <li>
+          <li class="portfolio-item-work">
             <a href="" class="portfolio-link"
               ><img
                 src="./images/potrfolio-img-06.jpg"
@@ -153,6 +163,7 @@
                 height="294"
                 alt="Inspiration has no Borders"
               />
+              <div class="portfolio-descript">
               <h2 class="h2-portfolio">Inspiration has no Borders</h2>
               <p class="p-portfolio-short">Веб-сайт</p>
               <p class="p-portfolio-long">
@@ -160,9 +171,10 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
+            </div>
             </a>
           </li>
-          <li>
+          <li class="portfolio-item-work">
             <a href="" class="portfolio-link"
               ><img
                 src="./images/potrfolio-img-07.jpg"
@@ -170,6 +182,7 @@
                 height="294"
                 alt="Inspiration has no Borders"
               />
+              <div class="portfolio-descript">
               <h2 class="h2-portfolio">Издание Limited Edition</h2>
               <p class="p-portfolio-short">Дизайн</p>
               <p class="p-portfolio-long">
@@ -177,9 +190,10 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
+            </div>
             </a>
           </li>
-          <li>
+          <li class="portfolio-item-work">
             <a href="" class="portfolio-link"
               ><img
                 src="./images/potrfolio-img-08.jpg"
@@ -187,6 +201,7 @@
                 height="294"
                 alt="Проект LAB"
               />
+              <div class="portfolio-descript">
               <h2 class="h2-portfolio">Проект LAB</h2>
               <p class="p-portfolio-short">Маркетинг</p>
               <p class="p-portfolio-long">
@@ -194,9 +209,10 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
+            </div>
             </a>
           </li>
-          <li>
+          <li class="portfolio-item-work">
             <a href="" class="portfolio-link"
               ><img
                 src="./images/potrfolio-img-09.jpg"
@@ -204,6 +220,7 @@
                 height="294"
                 alt="Growing Business"
               />
+              <div class="portfolio-descript">
               <h2 class="h2-portfolio">Growing Business</h2>
               <p class="p-portfolio-short">Приложение</p>
               <p class="p-portfolio-long">
@@ -211,74 +228,88 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
+            </div>
             </a>
           </li>
         </ul>
+      </div>
       </section>
     </main>
+    <!-- FOOTER -->
     <footer class="footer-bg">
-      <ul class="unmark">
-        <li>
-          <a href="index.html" class="logo"
-            >Web <span class="logo-span-white">Studio</span></a
-          >
-        </li>
-
-        <li>
-          <a href="#" class="address-link">г. Киев, пр-т Леси Украинки, 26</a>
-        </li>
-        <li>
-          <a href="mailto:info@example.com" class="contacts-link-footer"
-            >info@example.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380991111111" class="contacts-link-footer">
-            +38 099 111 11 11
-          </a>
-        </li>
-      </ul>
-      <section>
-        <h3 class="h3-footer">присоединяйтесь</h3>
-        <ul class="unmark">
-          <li>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="contacts-link-footer"
-              ><span>Instagram</span></a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="contacts-link-footer"
-              ><span>Twitter</span></a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="contacts-link-footer"
-              ><span>Facebook</span></a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="contacts-link-footer"
-              ><span>Linkedin</span></a
-            >
-          </li>
-        </ul>
-      </section>
+      <div class="container footer-box">
+        <!-- Секція футера 1 -->
+        <div class="footer-item">
+          <a href="index.html" class="logo logo-footer-position"
+              >Web <span class="logo-span-white">Studio</span></a
+              >
+          <address class="address-list">   
+          <ul class="unmark">       
+            <li class="address-item">
+              <a href="#" class="address-link">г. Киев, пр-т Леси Украинки, 26</a>
+            </li>
+            <li class="address-item">
+              <a href="mailto:info@example.com" class="contacts-link-footer"
+                >info@example.com</a
+              >
+            </li>
+            <li class="address-item">
+              <a href="tel:+380991111111" class="contacts-link-footer">
+               +38 099 111 11 11
+              </a>
+            </li>
+          </ul>
+        </address> 
+        </div>
+        <!-- Секція футера 2 -->
+        <div class="footer-item">
+          <b class="b-footer">присоединяйтесь</b>
+          <ul class="unmark social-list-footer">
+            <li class="social-item-footer">
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contacts-link-footer"
+                ><span>Instagram</span></a
+              >
+            </li>
+            <li class="social-item-footer">
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contacts-link-footer"
+                ><span>Twitter</span></a
+              >
+            </li>
+            <li class="social-item-footer">
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contacts-link-footer"
+                ><span>Facebook</span></a
+              >
+            </li>
+            <li class="social-item-footer">
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contacts-link-footer"
+                ><span>Linkedin</span></a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- Секція футера 3 -->
+        <div class="footer-item">
+          <b class="b-footer">подпишитесь на рассылку</b>
+          <input type="email" name="login" value="E-mail">
+          <button class="button-main">Подписаться</button>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
